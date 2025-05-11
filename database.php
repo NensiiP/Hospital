@@ -1,8 +1,8 @@
 <?php
 $servername = "db4free.net";  // Change if using a different host
-$username = "hospitaladmin";         // Your database username
-$password = "novena123";             // Your database password
-$dbname = "novena_hospitall";    // Your database name
+$username = "novenaadmin2311";         // Your database username
+$password = "aasecure1234";             // Your database password
+$dbname = "novena_hosp_2311";    // Your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
