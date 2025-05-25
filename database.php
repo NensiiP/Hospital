@@ -1,7 +1,7 @@
 <?php
 $servername = "mysql.railway.internal";  // Change if using a different host
 $username = "root";         // Your database username
-$password = "TxCCeCwhUiuoUpGCQjTQoDiKHdhdzArx";             // Your database password
+$password = "KnicXCmYxNbMZVRhlSLpLYtYkijrXZMd";             // Your database password
 $dbname = "railway";    // Your database name
 
 // Create connection
