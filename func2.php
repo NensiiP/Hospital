@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","novena_hospital");
+$con=mysqli_connect("mysql.railway.internal","root","KnicXCmYxNbMZVRhlSLpLYtYkijrXZMd","railway");
 if(isset($_POST['patsub1'])){
 	$fname=$_POST['fname'];
   $lname=$_POST['lname'];
