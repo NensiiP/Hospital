@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";  // Change if using a different host
+$servername = "mysql.railway.internal";  // Change if using a different host
 $username = "root";         // Your database username
-$password = "";             // Your database password
-$dbname = "novena_hospital";    // Your database name
+$password = "KnicXCmYxNbMZVRhlSLpLYtYkijrXZMd";             // Your database password
+$dbname = "railway";    // Your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
