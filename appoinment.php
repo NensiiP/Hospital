@@ -2,14 +2,19 @@
 include 'database.php';  // Your database connection
 session_start();
 
+if (!isset($_SESSION['pid'])) {
+    header("Location: login.php");
+    exit();
+}
+
 // Ensure session variables are set
-$pid = $_SESSION['pid'];
-$username = $_SESSION['username'];
-$email = $_SESSION['email'];
-$fname = $_SESSION['fname'];
-$gender = $_SESSION['gender'];
-$lname = $_SESSION['lname'];
-$contact = $_SESSION['contact'];
+$pid = $_SESSION['pid'] ?? '';
+$username = $_SESSION['username'] ?? '';
+$email = $_SESSION['email'] ?? '';
+$fname = $_SESSION['fname'] ?? '';
+$gender = $_SESSION['gender'] ?? '';
+$lname = $_SESSION['lname'] ?? '';
+$contact = $_SESSION['contact'] ?? '';
 
 if (isset($_POST['book_appointment'])) {
     // Collect form data
